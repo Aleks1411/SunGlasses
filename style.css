@@ -1,0 +1,244 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+#products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+
+
+
+}
+
+.color {
+    border-style: double;
+    width: 200px;
+    text-align: center;
+    color: black;
+    background: #13E8E9;
+
+}
+
+.navbar {
+    
+    background-color: rgba(213, 216, 24, 0.5);
+}
+
+
+/* .sp {
+   
+    text-align: center;
+    color: gold;
+    font-family: fantasy;
+} */
+
+/* .red{
+    color: white;
+    background-color: red;
+}
+.blue{
+    color: blue;
+    background-color: blue;
+}
+
+.black{
+    color: black;
+    background-color: black;
+}
+.green{
+    color: green;
+    background-color: green;
+} */
+.minus {
+    border-style: double;
+    background: grey;
+    width: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.plus {
+    border-style: double;
+    background: green;
+    width: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+#total {
+    border-style: double;
+    background: green;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    color: whitesmoke;
+    align-items: center;
+}
+
+.delete {
+    border-style: double;
+    background: red;
+    width: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.qtty {
+    border-style: double;
+    width: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.name {
+    border-style: double;
+    width: 50px;
+    text-align: center;
+    background: darkgray;
+}
+
+.valie {
+    border-style: double;
+    width: 50px;
+    text-align: center;
+    background: aquamarine;
+}
+
+/* ---- reset ---- */
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #3318b6;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}
+footer {
+    background: black;
+    height: 40%;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: top 40px;
+    color: white;
+} 
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.foot ul {
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+    line-height: 2rem;
+    display: flex;
+    list-style: none;
+    margin: 20px;
+    
+}
+
+.foot ul li{
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+.foot ul  .h1{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    
+}
+.foot ul .h2{
+    border-right: 2px  solid white;
+}
+
+ .foot .icon {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.icon {
+    color: azure;
+}
+.foot .icon p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ .footer-bottom {
+    background: black;
+    width: 100;
+    padding: 20px 0;
+    text-align: center;
+ }
+
+ .footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+ 
+ .footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+ }
